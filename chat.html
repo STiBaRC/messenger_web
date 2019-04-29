@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<title>STiBaRC Messenger</title>
+<link rel="stylesheet" href="css/chat.css">
+<link rel="icon" type="image/png" href="icon.png">
+<script src="js/notifs.js"></script>
+<script src="js/chat.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/enc-utf8.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/aes.min.js"></script>
+</head>
+<body>
+<div id="top">
+<a href="index.html" id="backframe"><img src="img/back.png" id="backbutton"></img></a> <span id="user"></span> <button id="setenc">Toggle encryption</button>
+</div><br/>
+<div id="chatstuffs">
+
+</div><br/>
+<div id="inputbox">
+<button id="attach">Attach</button><textarea id="input"></textarea><button id="send">Send</button>
+</div>
+<input type="file" id="secretfileupload" style="display:none;" />
+</body>
+</html>
